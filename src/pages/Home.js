@@ -1,16 +1,12 @@
-import { useEffect, useState } from "react";
+import React from 'react';
 
-function Home() {
+function HomePage() {
   return (
-    <>
-      <header>
-        {/* What component should go here? */}
-      </header>
-      <main>
-        {/* Info goes here! */}
-      </main>
-    </>
+    <div>
+      <h1>Home Page</h1>
+      <p>Welcome to the Home Page!</p>
+    </div>
   );
-};
+}
 
-export default Home;
+export default HomePage;
